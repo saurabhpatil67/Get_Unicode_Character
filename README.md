@@ -33,8 +33,9 @@ const unicodeValue = inputValue.charCodeAt(0);
 
 - The (0) means the first character (because counting starts at 0).
 
-**Example :**
+### 🔢 Example Outputs
 
-'A'.charCodeAt(0)  // returns 65
-'a'.charCodeAt(0)  // returns 97
-'😊'.charCodeAt(0) // returns 55357 (part of the emoji’s Unicode)
+```js
+'A'.charCodeAt(0);  // returns 65
+'a'.charCodeAt(0);  // returns 97
+'😊'.charCodeAt(0); // returns 55357 (part of the emoji’s Unicode)
