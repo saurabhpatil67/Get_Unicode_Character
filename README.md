@@ -32,3 +32,9 @@ const unicodeValue = inputValue.charCodeAt(0);
 - .charCodeAt(0) is a JavaScript built-in method that returns the Unicode value of the first character in a string.
 
 - The (0) means the first character (because counting starts at 0).
+
+**Example :**
+
+'A'.charCodeAt(0)  // returns 65
+'a'.charCodeAt(0)  // returns 97
+'😊'.charCodeAt(0) // returns 55357 (part of the emoji’s Unicode)
